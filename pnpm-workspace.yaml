@@ -1,0 +1,6 @@
+packages:
+  - 'packages/*/*'
+  - 'apps/*/*'
+  - 'apps-scripts/*'
+  - 'switch/*'
+  - 'tools/*'

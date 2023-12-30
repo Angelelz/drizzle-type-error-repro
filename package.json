@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "pnpm": "8.10.5",
+    "prettier": "3.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  },
+  "name": "testrepo",
+  "private": true
+}

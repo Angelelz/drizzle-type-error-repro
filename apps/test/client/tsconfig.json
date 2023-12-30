@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": false
+  },
+  "exclude": [".next", "dist", "node_modules"],
+  "extends": "@testrepo/tsconfig/tsconfig.react.json",
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}

@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@neondatabase/serverless": "0.6.0",
+    "bufferutil": "4.0.8",
+    "drizzle-orm": "0.29.2",
+    "postgres": "3.4.3",
+    "ws": "8.14.2"
+  },
+  "devDependencies": {
+    "@testrepo/tsconfig": "workspace:*",
+    "@types/ws": "8.5.10",
+    "drizzle-kit": "0.20.9",
+    "eslint-config-testrepo": "workspace:*",
+    "pg": "8.11.3"
+  },
+  "files": [
+    "src"
+  ],
+  "main": "src/index",
+  "name": "@test/database",
+  "scripts": {
+    "build": "rm -rf ./dist && pnpm run tsc",
+    "format": "pnpm run lint --fix",
+    "lint": "eslint --max-warnings 0 --ext .js,.ts,.jsx,.tsx . --cache --cache-strategy content",
+    "tsc": "tsc"
+  },
+  "types": "src/index"
+}

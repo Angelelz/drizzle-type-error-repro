@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "typescript": "5.2.2"
+  },
+  "main": "index.ts",
+  "name": "@testrepo/tsconfig",
+  "scripts": {
+    "build": "rm -rf ./dist && pnpm run tsc",
+    "lint": "eslint --max-warnings 0 --ext .js,.ts,.jsx,.tsx . --cache --cache-strategy content",
+    "tsc": "tsc"
+  }
+}

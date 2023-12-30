@@ -1,0 +1,16 @@
+.vscode
+.idea
+node_modules
+.DS_Store
+coverage
+tempCodeRunnerFile*
+*.pyc
+dist
+.next
+out
+next-env.d.ts
+localDBData
+.eslintcache
+uploadedFiles
+.turbo
+.vercel

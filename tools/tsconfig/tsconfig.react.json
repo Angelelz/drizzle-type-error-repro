@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "lib": ["dom", "ESNext"],
+    "incremental": true,
+    "isolatedModules": true,
+    "outDir": "./dist"
+  },
+  "files": ["./declarations.d.ts"],
+  "extends": "./tsconfig.json"
+}
